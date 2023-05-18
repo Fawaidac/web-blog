@@ -128,7 +128,7 @@
 									<img src="{{ asset('assets/img/fawaid.jpg') }}" width="370px" height="370px" alt="{{ $item->title }}">
 							@endif
           <div class="news-text-box">
-            <h3><a href="single-news.html">{{ $item->title }}</a></h3>
+            <h3><a href="https://www.google.com/search?q={{ $item->title }}">{{ $item->title }}</a></h3>
             <p class="blog-meta">
               <span class="author"><i class="fas fa-user"></i>{{ $item->user->name }}</span>
               <span class="date"><i class="fas fa-calendar"></i> {{ $item->updated_at->format('d F, Y') }}</span>
