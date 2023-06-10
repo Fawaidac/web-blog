@@ -37,7 +37,7 @@ class BlogController extends Controller
 
         $blog->title = $request->title;
         $blog->content = $request->content;
-        $blog->user_id = 7;
+        $blog->user_id = 1;
         $blog->save();
 
         if ($blog) {
@@ -64,7 +64,7 @@ class BlogController extends Controller
 
         $blog->title = $request->title;
         $blog->content = $request->content;
-        $blog->user_id = 7;
+        $blog->user_id = 1;
         $blog->update();
 
         if ($blog) {
